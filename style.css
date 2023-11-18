@@ -8,23 +8,152 @@ body {
 }
 
 .header{
-    flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: #1F2937;
+    color: aliceblue;
+    font-weight: 500;
 }
 .Nav{
     display: inline-flex;
     justify-content: space-between;
-    list-style: none;
+    
 }
+
+li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 8px;
+    }
+    .logo{
+        margin-left: 28px;
+        font-size: larger;
+        font-weight: bold;
+        
+    }
 
 .section1{
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: azure;
 }
+
+.sec1_left{
+    text-overflow: ellipsis;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.hero{
+    height: 400px;
+    width: auto;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: aliceblue;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.section2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 img{
-    height: 300px;
-    width: 300px;
+    width: 250px;
+    height: 250px;
 }
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    }
+
+    .section3{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #E5E7EB;
+    }
+    .qq{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        width:500px;
+        font-style: italic;
+    }
+    .title{
+        font-size: 18px;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .section4{
+        flex: 1;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .action{
+        background-color: #3882F6;
+        width: 700px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #E5E7EB;
+        border-radius: 6px;
+    }
+    .actiontime{
+        font-size: large;
+        font-weight: bold;
+    }
+    .disc{
+        font-weight: 450;
+    }
+    .signup{
+        margin-left: 32px;
+        padding: 8px;
+        width: 110px;
+        height: 50px;
+        font-size: large;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+
+    .footer{
+        flex: 0 0 auto;
+        background-color: #1F2937;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #E5E7EB;
+    }
